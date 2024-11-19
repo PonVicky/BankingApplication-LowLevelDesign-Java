@@ -69,10 +69,11 @@ This repository contains a **Banking Application** implemented in Java. The proj
 🖥️**HOW IT WORKS**
 
 **Application Flow**
+
 1.Create Account:
   - Input your name, account type, initial deposit, and a 4-digit PIN.
   - Re-enter the PIN for validation
-  - Upon successful creatio, you'll receive a unique account number.
+  - Upon successful creation, you'll receive a unique account number.
 
 2.Authenticate Operations: 
   - For account-related operations(search, deposit, withdraw), you'll be prompted to:
@@ -81,12 +82,12 @@ This repository contains a **Banking Application** implemented in Java. The proj
   - Invalid credentials will prompt retries until valid details are provided.
 
 3. Deposit and Withdraw:
-  - Deposit moey into or withdraw money from your account after authentication.
+  - Deposit money into or withdraw money from your account after authentication.
   - Withdrawals check for sufficient balance before proceeding.
 
 4. Search and View Details:
   - Search your account by entering your account number.
-  - After authentication. view your current balance.
+  - After authentication, view your current balance.
 
 5. Transfer Money:
   - Transfer funds to another account by providing:
